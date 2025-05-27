@@ -1,36 +1,51 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Chào mừng đến docs Travel Web
+description: Các bước thiết lập và sử dụng Travel Web với WordPress + Sage.
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Hướng dẫn thiết lập dự án Travel Web với WordPress & Sage
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Bắt đầu ngay
+      link: /steps/setup
       icon: right-arrow
-    - text: Read the Starlight docs
+    - text: Tài liệu Starlight
       link: https://starlight.astro.build
       icon: external
       variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid } from "@astrojs/starlight/components";
 
-## Next steps
+## Các bước thiết lập hướng dẫn sử dụng với Travel Web
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <Card title="1. Cài đặt ban đầu" icon="setting" href="/steps/setup">
+    Đăng nhập, kích hoạt theme, và cài đặt dự án khởi tạo ban đầu.
+  </Card>
+
+{" "}
+
+<Card
+  title="2. Khởi tạo hình ảnh, post, category"
+  icon="seti:folder"
+  href="/steps/initial-content"
+>
+  Tạo media, bài viết mẫu và phân loại nội dung cơ bản.
+</Card>
+
+{" "}
+
+<Card
+  title="3. Tùy chỉnh giao diện"
+  icon="seti:default"
+  href="/steps/customize-theme"
+>
+  Hướng dẫn chỉnh sửa layout, CSS, và component Blade trong Sage.
+</Card>
+
+  <Card title="4. Triển khai và vận hành" icon="rocket" href="/steps/start">
+    Cách deploy website và vận hành thực tế (có thể dùng Trellis hoặc giải pháp khác).
+  </Card>
 </CardGrid>

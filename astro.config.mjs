@@ -6,7 +6,7 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
   integrations: [
     starlight({
-      title: "Travel website Docs",
+      title: "Docs Travel Web",
       social: [
         {
           icon: "github",

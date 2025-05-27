@@ -6,7 +6,7 @@ description: Hướng dẫn dành cho quản trị viên khởi tạo website Tr
 ## Giới thiệu
 
 Dự án **Travel Web** được xây dựng và phát triển bởi **Bees Group**. 
-Mục tiêu của dự án là xây dựng một website du lịch có giao diện hiện đại, tối ưu cho SEO, tốc độ tải nhanh và dễ quản trị nội dung.
+Được phát triển dựa trên wordpress and Sage.
 
 ### Thông tin kỹ thuật
 
@@ -88,10 +88,28 @@ Giao diện lựa chọn gồm 2 lựa chọn:
 
 ## 3. Thiết lập logo & favicon
 
-1. Vào **Giao diện > Tùy biến (Customize)**.
+1. Vào **Giao diện > Tùy biến (Customize)**. 
+
+  <figure>
+    <img src="/images/docs/setup/customize.png" alt="Tùy biến" width="800" />
+    <figcaption>Hình 3.1: Thao tác để mở trang tùy biến </figcaption>
+  </figure>
+
 2. Chọn **Site Identity (Nhận diện trang)**.
-3. Tải lên logo và favicon theo yêu cầu của dự án.
-4. Nhấn **Lưu (Publish)** sau khi hoàn tất.
+
+  <figure>
+    <img src="/images/docs/setup/customize_site.png" alt="Tùy biến tiêu đề" width="800" />
+    <figcaption>Hình 3.2: Thao tác mở tùy biến nhận diện trang </figcaption>
+  </figure>
+
+3. Chọn  **Select site icon(Chọn thay đổi icon)** Tải lên logo và favicon theo yêu cầu của dự án. 
+
+  <figure>
+    <img src="/images/docs/setup/customize_site_icon.png" alt="Tùy biến tiêu đề" width="800" />
+    <figcaption>Hình 3.3: Thao tác mở tùy biến icon </figcaption>
+  </figure>
+
+4. Đang tải hình ảnh và chọn hình ảnh phù hợp. Sau khi hoàn tất nhấn **Lưu (Publish)** để lưu lại thay đổi.
 
 ---
 
@@ -102,14 +120,6 @@ Giao diện lựa chọn gồm 2 lựa chọn:
 3. Thêm các trang bạn muốn hiển thị (Trang chủ, Giới thiệu, Liên hệ...).
 4. Chọn vị trí hiển thị: `Primary Menu` hoặc `Main Navigation`.
 5. Nhấn **Lưu Menu**.
-
----
-
-## 5. Kiểm tra giao diện trang chính
-
-Truy cập lại website bằng địa chỉ trang web của bạn
-
-Bạn sẽ thấy giao diện mới đã được áp dụng, logo và menu đã hiển thị nếu cấu hình đúng.
 
 ---
 
